@@ -1,0 +1,231 @@
+body {
+    font-family: 'Montserrat';
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: #FFA0A0;
+}
+
+p {
+    color: #8f8f8f;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+h2 {
+    font-family: 'Ubuntu-bold';
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+h3 {
+    font-family: 'Montserrat-bold';
+    font-size: 1.5rem;
+}
+
+.container-fluid {
+    padding: 3% 15% 7%;
+}
+
+.features-font {
+    color: #ef8172;
+}
+
+#title {
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.title-text {
+    font-family: "Poppins", sans-serif;
+    font-weight: bolder;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+/* Navigation Bar  */
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu';
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px; 
+    margin-left: 20px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: 'Montserrat-Light';
+}
+
+.navbar-NAV {
+    margin-left: 550px;
+}
+
+/* Download Buttons */
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+/* Title image */
+ 
+.title-image {
+    width: 22%;
+    transform: rotate(25deg);
+    position: absolute;
+    height: 600px;
+    right: 17%;
+}
+
+/* Feature Section */
+
+#features {
+    padding: 7% 15%;
+    background-color: #fff;
+    z-index: 1;
+    position: relative;
+ }
+
+.feature-box { 
+    text-align: center;
+    padding: 4.5%;
+}
+
+.fa-feat {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.fa-feat:hover {
+    color: #ff4c68;
+}
+
+/* Testimonial section */
+
+#testimonials { 
+    font-family: 'Montserrat-bold';
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+
+.testimonial-image {
+    width: 20%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.testimonial-text {
+    width: 20%;
+}
+
+#press  {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+/* Cards section */
+
+.card-button:hover {
+    color: #F39189;
+}
+  
+.cards-wrapper {
+    width: 100%;
+    margin: 0;
+}
+
+.cards-wrapper .card {
+    height: 100%;
+}
+
+/* Pricing-Section */
+
+#pricing {
+    text-align: center;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+@media (max-width: 1028px) {
+    #title {
+        text-align: center;
+    }
+
+    .title-image {
+        position: static;
+        transform: rotate(0);
+        width: 45%;
+    }
+}
+
+/* cta section */
+
+#cta {
+    background-color: #ff4c68;
+    color: #fff;
+    text-align: center;
+    /* padding: 50px 0 20px; */
+    padding: 100px 15% 40px;
+}
+
+.cta-button {
+    margin-top: 60px;
+    margin-bottom: 150px;
+    margin-right: 20px;
+}
+
+.cta-button:hover {
+    color: #FFA0A0;
+}
+
+.cta-text {
+    margin-top: 50px;
+    font-family: "Poppins", sans-serif;
+    line-height: 1.5;
+    font-size: 3.5rem;
+    font-weight: bolder;
+    color: #fff;
+}
+
+/* footer */
+
+#footer {
+    background: #F6F6F6;
+    text-align: center;
+    padding: 7% 15%;
+}
+
+.footer-text {
+    margin-top: 40px;
+}
+
+.brands-footer {
+    padding: 0 15px;
+}
+
